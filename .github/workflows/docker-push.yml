@@ -1,11 +1,7 @@
 name: decker-push
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - '**'
+  push
       
 jobs:
   build:
