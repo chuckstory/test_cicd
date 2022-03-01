@@ -1,11 +1,11 @@
-import express from 'express';
+import express, {Request, Response} from 'express';
 import { json } from 'body-parser';
 
 
 const app = express();
 app.use(json());
 
-app.all('*', async (req, res) => {
+app.all('*', async (req: Request, res: Response) => {
     return res.send({"hello22": "hello there"})
    // throw new NotFoundError();
   });
