@@ -6,7 +6,7 @@ const app = express();
 app.use(json());
 
 app.all('*', async (req, res) => {
-    return res.send({"hello22": "held2"})
+    return res.send({"hello22": "held23333"})
    // throw new NotFoundError();
   });
 
