@@ -7,7 +7,7 @@ app.use(json());
 
 
 app.all('*', async (req: Request, res: Response) => {
-    return res.send({"hello22": "hello there"})
+    return res.send({"hello22": "hello from"})
    // throw new NotFoundError();
   });
 
