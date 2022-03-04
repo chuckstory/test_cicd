@@ -7,7 +7,7 @@ app.use(json());
 
 
 app.all('*', async (req: Request, res: Response) => {
-    return res.send({"hello22": "hello from"})
+    return res.send({"hello22": "git tag"})
    // throw new NotFoundError();
   });
 
